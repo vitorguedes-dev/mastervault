@@ -7,37 +7,59 @@ Autor: Vitor Hugo
 ## Gestores - Áreas relacionadas
 - Quais as responsabilidades do Parceiro em relação a cobrança? Apenas recebimento de comissão? Fará a cobrança de inadimplência?  **(Ramael, Dani)**
     - Quais as responsabilidades da Tapaggo em relação a isso? Controle de repasse de comissão (Split de Pagamento)? Cobrança de Inadimplência? Emissão e envio de relatório de cobrança e inadimplência ao parceiro? **(Ramael, Dani)**
-    
+
+**R: A Tapaggo só tem responsabilidade de acompanhamento da inadimplência dos clientes do grupo da MasterClassic (Por exemplo, Caapeb). Em relação, aos parceiros a Tappago irá disponibilizar as informações sobre a recorrência e cobrança na plataforma do parceiro.**
+
 - Se o cliente cancelou a recorrência, o que fazer? Realizar retenção/contato com o cliente? Enviar relatório ao parceiro?  **(Ramael, Dani e Hector)**
-    
+
+**R: A plataforma do parceiro envia whatsapp e e-mail para contato com cliente.**
+
 - Se uma das cobranças recorrentes falhar, o que fazer? Definir qual política de retentativa de cobrança realizar ou contato direto com o cliente? Emissão de cobrança comum (QR code pix comum)? **(Ramael, Dani e Hector)**
-    
+
+**R: O sistema irá trabalhar com a Política de Retentativa 3R7D. O resto vai ser de responsabilidade do parceiro.**
+
 - O que irá fazer com relação ao reajuste anual? E as Porcentagens? Lembrando que a jornada 3 não permite a alteração do valor pré-definido da cobrança recorrente! Na jornada 2, o cliente define o valor máximo a ser cobrado.  **(Ramael, Dani, Hector)**
-    
+
+**R: Devido ser uma decisão mais complexa que envolve trade-off. Ramael e Hector estão avaliando.**
+
 - Como realizar a separação de pagamentos comuns oriundos da cobrança da inadimplência dos pagamentos recorrentes? Contas de recebimento distintas, conforme proposto pela gerente do BB? **(Ramael, Dani)**
-    
+
+**R: Visualmente a plataforma de gestão do financeiro irá lidar, pois só mostra as transações executadas dentro do sistema pix Automático. Em relação processo financeiro, Ramael e Dani vão avaliar.**
+
 - Como funcionará detalhadamente o Split de Pagamento? E no caso da primeira cobrança imediata (J3)?
     - O Split de Pagamento envolve outra API do BB? Qual API? Lis? **(Ramael, Hector)**
-    
+
+**R: Funcionará através de transferências normais com integração entre o sistema parceiro e o sistema de gestão do financeiro. O parceiro irá solicitar o resgate do saldo e o setor financeiro irá liberar a transferência. (Devo alertar que esta integração exige um planejamento e desenvolvimento próprio para garantir controle de valores e integridade de execução da transferência)**
+
 - Qual vai ser a volumetria dos dados e quantos parceiros utilizarão a solução? **(Ramael)**
-    
+
+**R: Ramael está avaliando.**
+
 - Quais informações o parceiro vai poder acessar pelo sistema dele? **(Ramael)**
-    
+
+**R: Cadastro, visualização das recorrências e cobranças e gestão das mesmas.**
+
 - Quais dados são necessários para área financeira? (Relacionados somente ao Pix Automático) **(Dani)**
-    
+
+**R: Ramael e Dani vão avaliar. OBS: é preciso mapear para montagem do banco de dados e desenvolvimento do sistema de gestão financeira do Pix.**
+
 - Quais dados são necessários para a área Operacional? Considerar o Lis.  **(Hector)**
-    
+
+**R: Hector está avaliando. OBS: é preciso para pensar nas integrações com sistemas utilizados pela área Operacional, por exemplo, o Lis.**
+
 - A autorização é condicional ao pagamento da cobrança imediata (J3). E se ocorrer falha na autorização da recorrência? Lembrando que a cobrança imediata nesse caso já foi paga. **(Ramael, Dani, Hector)**
     - Como enviar a solicitação de autorização novamente? **(Ramael, Dani, Hector)**
-        
+
+**R: Esta identificação entre cliente e pagador precisa ser estudada para vinculação da primeira cobrança com a recorrência. Por exemplo, deve ser testado se recorrências que falharam (Cliente autorizou mas o sistema Pix não processou) são informadas no webhook da API do BB. Pode ser feito o acompanhamento com as informações de cadastro da plataforma de parceiro e o próprio parceiro verificar essa questão.** 
+
 - Como ocorrerá o tratamento das funcionalidades principais (CORE no diagrama) com o Lis? Quais funcionalidades serão solicitadas? **(Hector)**. **Link:** [Diagrama Proposto](https://www.tldraw.com/f/YREKE9Bx9_0vh-3F1nc58?d=v-229.-756.5870.2688.9rXEPGRB_bZXRT8PAh70j)
 
+**R: Ramael solicitou que seja realizada uma reunião com a equipe do Lis para verificar se eles irão implementar as funcionalidades necessárias. OBS: essas funcionalidades devem ser observadas no diagrama.**
 ## Área de dados
 É necessário que acompanhem o board que descreve as funcionalidades a serem atendidas.
 **Link:** [Diagrama Proposto](https://www.tldraw.com/f/YREKE9Bx9_0vh-3F1nc58?d=v-229.-756.5870.2688.9rXEPGRB_bZXRT8PAh70j)
 
 - Desenvolvimento do Banco de Dados de acordo com as necessidades dos sistemas integrados e dos times operacional e financeiro. **(Wender, Luyara)**
-
 ## Área de Desenvolvimento
 É necessário que acompanhem o board que descreve as funcionalidades a serem atendidas.
 **Link:** [Diagrama Proposto](https://www.tldraw.com/f/YREKE9Bx9_0vh-3F1nc58?d=v-229.-756.5870.2688.9rXEPGRB_bZXRT8PAh70j)

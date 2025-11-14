@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "19725f86b3258efa",
+        "id": "2df7c2630a3297f7",
         "type": "tabs",
         "children": [
           {
-            "id": "f322d32c1cd87414",
+            "id": "c99def730069b698",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIX/Sistema Pix - Macro.md",
+                "file": "PIX/Explicação de uso das tabelas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sistema Pix - Macro"
+              "title": "Explicação de uso das tabelas"
+            }
+          },
+          {
+            "id": "7155468c76b5c06c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
             }
           }
         ]
@@ -88,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "ca0f2ac736c4cab2",
@@ -176,52 +189,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "f322d32c1cd87414",
+  "active": "c99def730069b698",
   "lastOpenFiles": [
-    "PIX/Apresentação/Questionamentos Pix.md",
+    "PIX/Macro - Pix.md",
+    "PIX/PIX - Próximos Passos.md",
+    "PIX/Resumo Geral.md",
+    "PIX/Resumo Pix - Automático.md",
+    "PIX/Resumo Pix Automático.md",
     "PIX/Sistema Pix - Macro.md",
+    "PIX/Payload - Cancelar Cobrança.md",
+    "Documentação/Carteira e Repasses.md",
+    "PIX/Pix.md",
+    "api-mínima.png",
+    "bd-pix.png",
+    "sistema de parceiros.png",
+    "sistema gestão.png",
+    "Macro - Pix 1.png",
+    "Macro - Pix.png",
     "PIX/Explicação de uso das tabelas.md",
+    "Estudo LYS/Lis.md",
+    "PIX/Consulta/DOCS - Notificações Autorização.md",
+    "PIX/Consulta/DOCS - Notificações.md",
+    "Untitled.base",
+    "prompts/Prompt coding assistant.md",
+    "email.md",
+    "Pasted image 20250808171154.png",
+    "Untitled 1.md",
+    "Untitled.md",
+    "prompts",
+    "PIX/Apresentação/Questionamentos Pix.md",
     "PIX/Apresentação/Desmistificando Pix Automático.md",
     "PIX/Apresentação",
     "Pasted image 20251024112104.png",
     "PIX/Consulta/DOCS - Recorrência.md",
     "PIX/Consulta/DOCS - LOCREC.md",
     "01 - Tarefas.md",
-    "PIX/Consulta/DOCS - Notificações.md",
-    "PIX/Consulta/DOCS - Notificações Autorização.md",
     "Histórico.md",
     "Pasted image 20251021145633.png",
     "Pasted image 20251021145537.png",
     "PIX/Consulta",
     "0 - Reunião Guia.pdf",
-    "Untitled.md",
     "Visão Geral.md",
-    "PIX/Pix.md",
-    "PIX/PIX - Próximos Passos.md",
     "PIX",
     "Servidor.md",
     "Status do fluxo do Leads.md",
-    "Descrição dos fluxos.md",
-    "Atualizações - Integração de Sistemas - Cielo.md",
-    "Atualizações - Integrações de Sistemas.md",
-    "Documentação Gestão de Produtos.md",
-    "Banco de Dados - Categ de dados + Entidades.md",
-    "REUNIÃO - LUKINHAS (CARTEIRA).md",
-    "Email - Atualizações.md",
-    "Brevo - Conversa GPT 5.md",
-    "Documentação de Uso - Jornada 2.md",
-    "Documentação de Uso - Jornada 3.md",
-    "Pasted image 20250818143555.png",
-    "Pasted image 20250808172155.png",
-    "Pasted image 20250808172137.png",
-    "Pasted image 20250808171154.png",
     "Documentação",
     "Não confirmado 482289.crdownload",
     "Estudo LYS",
-    "main",
-    "0 - rough notes"
+    "main"
   ]
 }
