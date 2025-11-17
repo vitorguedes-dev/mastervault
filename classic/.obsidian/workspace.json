@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2df7c2630a3297f7",
+        "id": "d4cf8cd079eacc17",
         "type": "tabs",
         "children": [
           {
-            "id": "c99def730069b698",
+            "id": "a0c0a5df5e63fbed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIX/Explicação de uso das tabelas.md",
+                "file": "PIX/Dados/Dados Cob.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Explicação de uso das tabelas"
-            }
-          },
-          {
-            "id": "7155468c76b5c06c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "title": "Dados Cob"
             }
           }
         ]
@@ -100,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "ca0f2ac736c4cab2",
@@ -193,8 +180,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "c99def730069b698",
+  "active": "a0c0a5df5e63fbed",
   "lastOpenFiles": [
+    "PIX/Dados/DAdos Rec.md",
+    "PIX/Dados/Dados Cob.md",
+    "PIX/Pix - Cenário Atual.md",
+    "PIX/Untitled.md",
+    "PIX/Dados",
+    "PIX/Explicação de uso das tabelas.md",
     "PIX/Macro - Pix.md",
     "PIX/PIX - Próximos Passos.md",
     "PIX/Resumo Geral.md",
@@ -210,7 +203,6 @@
     "sistema gestão.png",
     "Macro - Pix 1.png",
     "Macro - Pix.png",
-    "PIX/Explicação de uso das tabelas.md",
     "Estudo LYS/Lis.md",
     "PIX/Consulta/DOCS - Notificações Autorização.md",
     "PIX/Consulta/DOCS - Notificações.md",
@@ -228,18 +220,13 @@
     "PIX/Consulta/DOCS - Recorrência.md",
     "PIX/Consulta/DOCS - LOCREC.md",
     "01 - Tarefas.md",
-    "Histórico.md",
     "Pasted image 20251021145633.png",
     "Pasted image 20251021145537.png",
     "PIX/Consulta",
     "0 - Reunião Guia.pdf",
-    "Visão Geral.md",
     "PIX",
-    "Servidor.md",
-    "Status do fluxo do Leads.md",
     "Documentação",
     "Não confirmado 482289.crdownload",
-    "Estudo LYS",
-    "main"
+    "Estudo LYS"
   ]
 }
