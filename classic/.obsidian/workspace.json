@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIX/Dados/Dados Cob.md",
+                "file": "PIX/Consulta/DOCS - Recorrência.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dados Cob"
+              "title": "DOCS - Recorrência"
+            }
+          },
+          {
+            "id": "5abb948c9a88aec3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "email/pix.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "pix"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,10 +205,19 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "a0c0a5df5e63fbed",
+  "active": "5abb948c9a88aec3",
   "lastOpenFiles": [
-    "PIX/Dados/DAdos Rec.md",
+    "Untitled 1.md",
+    "email/pix.md",
+    "Untitled.md",
+    "PIX/Consulta/DOCS - Recorrência.md",
+    "email",
+    "PIX/Dados/tabelas.md",
+    "PIX/Consulta/DOCS - LOCREC.md",
+    "PIX/Consulta/DOCS - Notificações Autorização.md",
+    "Estudo LYS/Modelo de dados - Webhook Lis Externo.md",
     "PIX/Dados/Dados Cob.md",
+    "PIX/Dados/DAdos Rec.md",
     "PIX/Pix - Cenário Atual.md",
     "PIX/Untitled.md",
     "PIX/Dados",
@@ -204,29 +238,20 @@
     "Macro - Pix 1.png",
     "Macro - Pix.png",
     "Estudo LYS/Lis.md",
-    "PIX/Consulta/DOCS - Notificações Autorização.md",
     "PIX/Consulta/DOCS - Notificações.md",
     "Untitled.base",
     "prompts/Prompt coding assistant.md",
     "email.md",
     "Pasted image 20250808171154.png",
-    "Untitled 1.md",
-    "Untitled.md",
     "prompts",
-    "PIX/Apresentação/Questionamentos Pix.md",
-    "PIX/Apresentação/Desmistificando Pix Automático.md",
     "PIX/Apresentação",
     "Pasted image 20251024112104.png",
-    "PIX/Consulta/DOCS - Recorrência.md",
-    "PIX/Consulta/DOCS - LOCREC.md",
-    "01 - Tarefas.md",
     "Pasted image 20251021145633.png",
     "Pasted image 20251021145537.png",
     "PIX/Consulta",
     "0 - Reunião Guia.pdf",
     "PIX",
     "Documentação",
-    "Não confirmado 482289.crdownload",
-    "Estudo LYS"
+    "Não confirmado 482289.crdownload"
   ]
 }
